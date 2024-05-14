@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to top, rgb(16, 4, 122), rgb(1, 2, 14)) ;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.contenedor-juego {
+    display: grid;
+    color: aqua;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.espacio {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px rgb(4, 92, 224);
+    border: 1px solid rgb(10, 218, 155);
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.espacio:hover {
+    color: cadetblue;
+}
+
+.restart {
+    color: rgb(15, 15, 15);
+    
+}
+
+.restart:hover {
+    color: rgb(12, 156, 240);
+}
